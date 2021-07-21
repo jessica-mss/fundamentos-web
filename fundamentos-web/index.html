@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home </a>
         </li>
@@ -18,23 +19,28 @@
         </li>
     </ul>
 
-    <h1>Sobre a Jessica</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Sunt, facilis! Temporibus, ab nisi. Repellendus unde
-        possimus voluptatem non nisi? Ut sapiente eos aliquam,
-        modi accusamus ullam totam eveniet cum adipisci.
-    </p>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Sunt, facilis! Temporibus, ab nisi. Repellendus unde
-        possimus voluptatem non nisi? Ut sapiente eos aliquam,
-        modi accusamus ullam totam eveniet cum adipisci.
-    </p>
-
-    <img src="./assets/img/Jessica_Foto.PNG" alt="Foto do criador desse conteúdo">
-
-    <h2>Minha Apresentação Pessoal</h2>
-
+    <h1 class="p1">Sobre a Jessica</h1>
+    <div class="container">
+        <div class="p-30">
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sunt, facilis! Temporibus, ab nisi. Repellendus unde
+                possimus voluptatem non nisi? Ut sapiente eos aliquam,
+                modi accusamus ullam totam eveniet cum adipisci.
+            </p>
+        
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sunt, facilis! Temporibus, ab nisi. Repellendus unde
+                possimus voluptatem non nisi? Ut sapiente eos aliquam,
+                modi accusamus ullam totam eveniet cum adipisci.
+            </p>
+        </div>
+        <div>
+            <img class="br-50 wh-300 p-30" src="./assets/img/Jessica_Foto.PNG" alt="Foto do criador desse conteúdo">
+        </div>  
+    </div>
+    
+    <h2 class="p1">Minha Apresentação Pessoal</h2>
+    <div class="container">
     <iframe 
         width="560" 
         height="315" 
@@ -47,8 +53,21 @@
                 encrypted-media; 
                 gyroscope; 
                 picture-in-picture"
-        allowfullscreen>
+        allowfullscreen>  
+    </div>
     </iframe>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/jessica-mss" target="_blank">
+            <img class="tamanhoImagem p-30" src="./assets/img/github.png" alt="Logo do Github">
+            </a>
+            <a href="https://www.instagram.com/jessica.amss/" target="_blank">
+            <img class="tamanhoImagem p-30" src="./assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+            <p>Todos os direitos reservados: Jessica Marques &copy</p>
+        </div>      
+    </footer>
     
 </body>
 </html>
